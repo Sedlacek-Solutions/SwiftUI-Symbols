@@ -1,5 +1,11 @@
 # SFSymbolKit
 
+[![Platforms](https://img.shields.io/badge/Platforms-iOS%2013%2B%20|%20macOS%2012%2B%20|%20tvOS%2013%2B%20|%20watchOS%206%2B%20|%20visionOS%201%2B-blue?style=flat-square)](https://developer.apple.com)
+[![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen?style=flat-square)](https://swift.org/package-manager)
+[![Swift](https://img.shields.io/badge/Swift-6.0%2B-orange?style=flat-square)](https://swift.org)
+[![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)](LICENSE)
+
+
 SFSymbolKit is a Swift package that simplifies working with SF Symbols in SwiftUI by providing type-safe and convenient extensions for common SwiftUI views.
 
 ## Motivation
@@ -46,7 +52,7 @@ SFSymbolKit provides convenient extensions for various SwiftUI views to use SF S
 
 ### Adding SF Symbols
 
-SF Symbols can be added to the `SFSymbol` enum using static properties:
+SF Symbols can be created using static properties:
 
 ```swift
 extension SFSymbol {
