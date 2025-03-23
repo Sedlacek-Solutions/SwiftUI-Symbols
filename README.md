@@ -42,7 +42,7 @@ Or add it to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/Sedlacek-Solutions/SFSymbolKit.git", branch: "main")
+    .package(url: "https://github.com/Sedlacek-Solutions/SFSymbolKit.git", from: "1.0.0"),
 ]
 ```
 
