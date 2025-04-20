@@ -26,6 +26,25 @@ import SwiftUI
     )
 }
 
+/// Preview demonstrating the use of SF Symbols in a Label.
+@available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+#Preview("Label") {
+    VStack(spacing: 20) {
+        Label("Favorites", symbol: .heart)
+    }
+    .padding()
+}
+
+/// Preview demonstrating the use of SF Symbols in a LabeledContent.
+@available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, *)
+#Preview("LabeledContent") {
+    Form {
+        LabeledContent("Ratings", symbol: .star) {
+            Text("5")
+        }
+    }
+}
+
 /// Preview demonstrating the use of SF Symbols in a NavigationLink.
 #Preview("NavigationLink") {
     NavigationView {
