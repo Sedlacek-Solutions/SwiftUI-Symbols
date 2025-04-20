@@ -45,6 +45,16 @@ import SwiftUI
     }
 }
 
+/// Preview demonstrating the use of SF Symbols in a DisclosureGroup.
+@available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, visionOS 1.0, *)
+#Preview("DisclosureGroup") {
+    Form {
+        DisclosureGroup("Favorites", symbol: .heart) {
+            Text("Expanded State!")
+        }
+    }
+}
+
 /// Preview demonstrating the use of SF Symbols in a NavigationLink.
 #Preview("NavigationLink") {
     NavigationView {

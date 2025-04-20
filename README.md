@@ -98,6 +98,13 @@ LabeledContent("Ratings", symbol: .star) {
 }
 ```
 
+### DisclosureGroup
+```swift
+DisclosureGroup("Favorites", symbol: .heart) {
+    Text("Expanded State!")
+}
+```
+
 ### Menu
 ```swift
 Menu(symbol: .star) {
