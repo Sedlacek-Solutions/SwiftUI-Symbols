@@ -91,6 +91,13 @@ Image(symbol: .star)
 Label("Favorites", symbol: .star)
 ```
 
+### LabeledContent
+```swift
+LabeledContent("Ratings", symbol: .star) {
+    Text("5")
+}
+```
+
 ### Menu
 ```swift
 Menu(symbol: .star) {
