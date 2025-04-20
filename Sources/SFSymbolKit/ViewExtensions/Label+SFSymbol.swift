@@ -19,4 +19,12 @@ public extension Label where Title == Text, Icon == Image {
     init(_ title: String, symbol: SFSymbol) {
         self.init(title, systemImage: symbol.rawValue)
     }
+
+    /// Creates a label with a localized title string and an SF Symbol.
+    /// - Parameters:
+    ///   - titleKey: The localized string key to display as the label's title.
+    ///   - symbol: The SF Symbol to use as the label's icon.
+    init(_ titleKey: LocalizedStringKey, symbol: SFSymbol) {
+        self.init(titleKey, systemImage: symbol.rawValue)
+    }
 }
