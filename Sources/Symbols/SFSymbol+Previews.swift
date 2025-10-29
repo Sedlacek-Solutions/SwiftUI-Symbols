@@ -1,9 +1,10 @@
 //
 //  SFSymbol+Previews.swift
 //
-//  SwiftUI previews showcasing various uses of SFSymbolKit components.
+//  SwiftUI previews showcasing various uses of Symbols components.
 //  These previews demonstrate the integration of SF Symbols with different SwiftUI views.
 
+#if canImport(SwiftUI)
 import SwiftUI
 
 /// Preview demonstrating the use of SF Symbols in a Button.
@@ -83,3 +84,4 @@ import SwiftUI
             .tabItem(symbol: .heart, text: "Heart")
     }
 }
+#endif

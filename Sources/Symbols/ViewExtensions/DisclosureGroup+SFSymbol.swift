@@ -1,6 +1,6 @@
 //
 //  DisclosureGroup+SFSymbol.swift
-//  SFSymbolKit
+//  Symbols
 //
 //  Created by James Sedlacek on 4/20/25.
 //
