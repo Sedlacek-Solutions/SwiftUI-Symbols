@@ -1,4 +1,4 @@
-# SwiftUI-Symbols
+# SwiftUI-SFSymbols
 
 [![Platforms](https://img.shields.io/badge/Platforms-iOS%2013%2B%20|%20macOS%2012%2B%20|%20tvOS%2013%2B%20|%20watchOS%206%2B%20|%20visionOS%201%2B-blue?style=flat-square)](https://developer.apple.com)
 [![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen?style=flat-square)](https://swift.org/package-manager)
@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)](LICENSE)
 
 
-SwiftUI-Symbols is a Swift package that simplifies working with SF Symbols in SwiftUI by providing type-safe and convenient extensions for common SwiftUI views.
+SwiftUI-SFSymbols is a Swift package that simplifies working with SF Symbols in SwiftUI by providing type-safe and convenient extensions for common SwiftUI views.
 
 ## Motivation
 
@@ -14,7 +14,7 @@ Working with SF Symbols in SwiftUI often involves:
 - Repeating string literals for symbol names, which can lead to typos
 - No compile-time validation of symbol names
 
-SwiftUI-Symbols solves these issues by providing:
+SwiftUI-SFSymbols solves these issues by providing:
 - Type-safe symbol names with compile-time validation
 - Convenience initializers for SwiftUI views that accept SF Symbols
 
@@ -34,25 +34,25 @@ For detailed guidance on working with SF Symbols effectively, including symbol v
 
 ### Swift Package Manager
 
-Add SwiftUI-Symbols to your project through Xcode:
+Add SwiftUI-SFSymbols to your project through Xcode:
 1. File > Add Package Dependencies
-2. Enter the package URL: `https://github.com/Sedlacek-Solutions/SwiftUI-Symbols.git`
+2. Enter the package URL: `https://github.com/Sedlacek-Solutions/SwiftUI-SFSymbols.git`
 
 Or add it to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/Sedlacek-Solutions/SwiftUI-Symbols.git", branch: "main")
+    .package(url: "https://github.com/Sedlacek-Solutions/SwiftUI-SFSymbols.git", branch: "main")
 ]
 ```
 
-Then add **SwiftUI-Symbols** as a dependency of your target:
+Then add **SwiftUI-SFSymbols** as a dependency of your target:
 
 ```swift
 .target(
     name: "YourTarget",
     dependencies: [
-        .product(name: "SwiftUI-Symbols", package: "SwiftUI-Symbols")
+        .product(name: "SwiftUI-SFSymbols", package: "SwiftUI-SFSymbols")
     ]
 )
 ```
@@ -62,10 +62,10 @@ Then add **SwiftUI-Symbols** as a dependency of your target:
 After adding the dependency, import the module where you need it:
 
 ```swift
-import Symbols
+import SFSymbols
 ```
 
-SwiftUI-Symbols provides convenient extensions for various SwiftUI views to use SF Symbols in a type-safe way.
+SwiftUI-SFSymbols provides convenient extensions for various SwiftUI views to use SF Symbols in a type-safe way.
 
 ### Adding SF Symbols
 

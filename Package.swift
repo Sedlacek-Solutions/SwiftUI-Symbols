@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "SwiftUI-Symbols",
+    name: "SwiftUI-SFSymbols",
     defaultLocalization: "en",
     platforms: [
         .iOS(.v13),
@@ -15,10 +15,10 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "SwiftUI-Symbols",
-            targets: ["Symbols"]),
+            name: "SwiftUI-SFSymbols",
+            targets: ["SFSymbols"]),
     ],
     targets: [
-        .target(name: "Symbols"),
+        .target(name: "SFSymbols"),
     ]
 )
